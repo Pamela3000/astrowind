@@ -1,4 +1,6 @@
-# 🚀 Home
+<<<<<<< HEADddd
+
+# 🚀 Homeddddddddd
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
@@ -32,7 +34,7 @@
 <details open>
 <summary>Table of Contents</summary>
 
-- [🚀 Home](#-home)
+- [🚀 Homeddddddddd](#-homeddddddddd)
   - [Demo](#demo)
   - [🔔 Upcoming: AstroWind 2.0 – We Need Your Vision!](#-upcoming-astrowind-20--we-need-your-vision)
   - [Getting started](#getting-started)
@@ -49,6 +51,8 @@
   - [Contributing](#contributing)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
+- [**AstroWind** is licensed under the MIT license — see the LICENSE file for details.](#astrowind-is-licensed-under-the-mit-license--see-the-license-file-for-details)
+- [astrowind](#astrowind)
 
 </details>
 
@@ -297,4 +301,10 @@ Initially created by [onWidget](https://onwidget.com) and maintained by a commun
 
 ## License
 
-**AstroWind** is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.
+# **AstroWind** is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.
+
+# astrowind
+
+astrowind
+
+> > > > > > > ee92af2ebfbaab7bd45d73b57024cbdfd488780b
