@@ -15,10 +15,10 @@ import Button from '~/components/ui/Button.astro';
 import Image from '~/components/common/Image.astro';
 
 const appStoreImg = '~/assets/images/app-store.png';
-const appStoreDownloadLink = 'https://github.com/onwidget/astrowind';
+const appStoreDownloadLink = '/';
 
 const googlePlayImg = '~/assets/images/google-play.png';
-const googlePlayDownloadLink = 'https://github.com/onwidget/astrowind';
+const googlePlayDownloadLink = '/';
 
 const metadata = {
   title: 'Mobile App Homepage',
@@ -56,7 +56,7 @@ const metadata = {
     }}
   >
     <Fragment slot="title">
-      <span class="text-accent dark:text-white highlight">AstroWind App</span>: <br /> professional websites <span
+      <span class="text-accent dark:text-white highlight">NamePag App</span>: <br /> professional websites <span
         class="hidden xl:inline">made easy</span
       >
     </Fragment>
@@ -84,29 +84,28 @@ const metadata = {
   <Features3
     id="features"
     title="How to use our app?"
-    subtitle="Tired of spending hours crafting documents from scratch? Our app offers an innovative solution. With a wide array of professionally designed templates, you can now create stunning documents in minutes. Explore our templates now and experience the difference."
+    subtitle="lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     tagline="Step-by-step guide"
     columns={2}
     items={[
       {
-        title: 'Download and install the app',
-        description: `Begin your journey by downloading our user-friendly app from your device's app store or our official website.`,
+        title: 'Contáctanos',
+        description: `Inicia tu proyecto poniéndote en contacto con nuestro equipo a través de nuestro formulario en línea o por correo electrónico. Estamos listos para escuchar tus ideas y necesidades.`,
         icon: 'tabler:square-number-1',
       },
       {
-        title: 'Sign up',
-        description:
-          'Create your account by providing the necessary information, enabling you to access our full range of features.',
+        title: 'Analizamos tus necesidades',
+        description: `Trabajaremos contigo para entender los objetivos de tu proyecto y definir los requisitos clave, asegurándonos de que cada detalle esté alineado con tu visión.`,
         icon: 'tabler:square-number-2',
       },
       {
-        title: 'Browse templates',
-        description: 'Explore our diverse collection of website templates, categorized for easy navigation.',
+        title: 'Explora nuestras opciones',
+        description: `Te presentaremos diseños, plantillas y estrategias personalizadas, cuidadosamente seleccionadas para ajustarse a los objetivos de tu negocio.`,
         icon: 'tabler:square-number-3',
       },
       {
-        title: 'Preview and select a template',
-        description: `Visualize the potential of each template through previews, then choose the one that aligns best with your project's needs.`,
+        title: 'Desarrollo y entrega',
+        description: `Nuestro equipo desarrollará tu proyecto con un enfoque en calidad y eficiencia. Una vez completado, te entregaremos un producto que superará tus expectativas.`,
         icon: 'tabler:square-number-4',
       },
     ]}
@@ -240,39 +239,39 @@ const metadata = {
     callToAction={{
       target: '_blank',
       text: 'Read more testimonials',
-      href: 'https://github.com/onwidget/astrowind',
+      href: '/',
       icon: 'tabler:chevron-right',
     }}
   />
 
   <!-- FAQs Widget ******************* -->
-
   <FAQs
-    title="Still have some doubts?"
+    title="¿Aún tienes dudas?"
     items={[
       {
-        title: 'What does this app do?',
+        title: '¿Qué servicios ofrece [Nombre de tu empresa]?',
         description:
-          'This app provides a platform for you to easily browse, purchase, download, and use a wide range of website templates for your projects.',
+          'En [Nombre de tu empresa] ofrecemos soluciones web personalizadas, desde el diseño y desarrollo de sitios hasta la implementación de estrategias de marketing digital, adaptadas a las necesidades de tu negocio.',
       },
       {
-        title: 'How can this app solve my problem?',
+        title: '¿Cómo puede ayudarme [Nombre de tu empresa] con mi proyecto?',
         description:
-          'This app streamlines the process of finding and implementing professional website designs, saving you time and effort in creating visually appealing and functional websites.',
+          'Nuestro equipo de expertos te ayudará a crear una presencia online que refleje la identidad de tu marca, mejorando la experiencia del usuario y optimizando el rendimiento de tu sitio web.',
       },
       {
-        title: 'Is it available for my device?',
-        description: `Our app is designed for compatibility across various devices and platforms, ensuring accessibility whether you're using a smartphone, tablet, or computer.`,
+        title: '¿Qué tipo de negocios pueden beneficiarse de sus servicios?',
+        description:
+          'Ofrecemos soluciones para empresas de todos los tamaños, desde startups hasta grandes corporaciones. Nuestros servicios son ideales para portafolios profesionales, sitios web corporativos, e-commerce y más.',
       },
       {
-        title: 'What makes this app different from others?',
+        title: '¿Qué diferencia a [Nombre de tu empresa] de otras agencias?',
         description:
-          'Our app stands out for its user-friendly interface, extensive template collection, and seamless integration of the purchasing and downloading process, making it highly efficient.',
+          'Nos destacamos por nuestra atención personalizada, nuestra experiencia en el uso de tecnologías modernas como Astro y Tailwind CSS, y por ofrecer soluciones escalables que se adaptan al crecimiento de tu negocio.',
       },
       {
-        title: 'Are there any costs involved?',
+        title: '¿Cuáles son los costos de sus servicios?',
         description:
-          'While the app itself may be free to download, there may be costs associated with purchasing specific templates based on your preferences and project requirements.',
+          'Ofrecemos planes flexibles que se ajustan a diferentes presupuestos. Nuestros precios dependen del alcance del proyecto y las funcionalidades que requieras, y siempre buscamos entregar el mejor valor por tu inversión.',
       },
     ]}
   />
