@@ -28,21 +28,11 @@ const {
     inputs && (
       <div class="flex flex-col max-w-xl mx-auto rounded-lg backdrop-blur border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 shadow p-4 sm:p-6 lg:p-8 w-full">
         <FormSignUp
-          inputs={[
-            { type: 'text', name: 'fullName', label: 'Full Name', placeholder: 'Enter your full name' },
-            { type: 'email', name: 'email', label: 'Email Address', placeholder: 'Enter your email address' },
-            { type: 'password', name: 'password', label: 'Password', placeholder: 'Create a password' },
-            {
-              type: 'password',
-              name: 'confirmPassword',
-              label: 'Confirm Password',
-              placeholder: 'Re-enter your password',
-            },
-          ]}
+          inputs={inputs}
           textarea={textarea}
           disclaimer={disclaimer}
-          button={button ?? 'Sign Up'}
-          description={description ?? 'By signing up, you agree to our Terms of Service and Privacy Policy.'}
+          button={button}
+          description={description}
         />
       </div>
     )
