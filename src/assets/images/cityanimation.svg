@@ -1,0 +1,459 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 1403 315" xml:space="preserve">
+<style type="text/css">
+    #wave1, #wave2, #wave3, #wave4, #wave5 {
+    transform-origin: 50% 50%;    
+    animation: wavesKey 3s infinite;
+    animation-timing-function: cubic-bezier(0, 0, 0.55, 1);
+    transform-box: fill-box;    
+}
+
+#wave2, #wave5 {
+    opacity:0;
+    animation-delay: 1s;
+    
+}
+
+@keyframes wavesKey {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    60% {
+        transform: scale(1.4);
+        opacity: 0;
+    }
+    100% {
+        transform:scale(1.4);
+        opacity: 0;
+    }
+}
+
+
+#truck {
+    animation-name: truckMove;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+#truck #compartiment #wasteMaskTruck {
+    animation-name: truckWaste;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#animated #bin5 #waste5 #wasteBin5 {
+    animation-name: wasteBin5;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+#animated #bin3 #waste3 #wasteBin3 {
+    animation-name: wasteBin3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+#animated #bin2 #waste2 #wasteBin2 {
+    animation-name: wasteBin2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes truckMove {
+    0% {
+        transform: translateX(-160px);
+    }
+    30%, 40% {
+        transform: translateX(535px);
+    }
+    55%, 60% {
+        transform: translateX(728px);
+    }
+    83%, 88% {
+        transform: translateX(1200px);
+    }
+    100% {
+        transform: translateX(1420px);
+    }
+}
+
+
+@keyframes truckWaste {
+    0%, 30% {
+        y:60;
+    }
+    40%, 55% {
+        y:40;
+    }
+    60%, 83% {
+        y:30;
+    }
+    88%, 100% {
+        y:10;
+    }
+}
+
+@keyframes wasteBin5 {
+    0%, 30% {
+        y:8;
+    }
+    40%, 55% {
+        y:30;
+    }
+    60%, 83% {
+        y:30;
+    }
+    88%, 100% {
+        y:30;
+    }
+}
+
+@keyframes wasteBin3 {
+    0%, 30% {
+        y:0;
+    }
+    40%, 55% {
+        y:0;
+    }
+    60%, 83% {
+        y:22;
+    }
+    88%, 100% {
+        y:30;
+    }
+}
+
+@keyframes wasteBin2 {
+    0%, 30% {
+        y:4;
+    }
+    40%, 55% {
+        y:4;
+    }
+    60%, 83% {
+        y:4;
+    }
+    88%, 100% {
+        y:30;
+    }
+}
+</style>
+    
+  <defs>
+    <polygon id="path-1" points="0 6.744 0 0 57 0 57 6.744 53.686 29 3.314 29"/>
+    <rect id="path-3" width="19" height="21"/>
+    <polygon id="path-5" points="0 6.744 0 0 57 0 57 6.744 53.686 29 3.314 29"/>
+    <polygon id="path-7" points="33 15.049 40.5 0 91 0 91 61 0 61 24.212 15.049"/>
+  </defs>
+  <g id="city" fill="none" fill-rule="evenodd">
+    <g id="background" stroke-width="2" transform="translate(2)">
+      <path stroke="#F7F7F7" d="M0,231 L40.5109499,231 L40.5109499,171.499774 L71.0343356,171.499774 L71.0343356,102.598446 L129.995527,102.503828 L129.995527,145.005503 L173.677814,145.005503 L173.677814,46.0659353 L248.190269,46.0659353 L248.190269,176.02024 L285.612114,176.02024 L285.612114,80.7906535 L315.039107,80.7906535 L315.039107,97.7623199 L343.998095,97.7623199 L343.998095,151.511487 L395.605825,151.511487 L395.605825,127.598437 L477.131246,127.598437 C477.131246,167.773699 477.131246,187.801324 477.131246,187.681313 C477.131246,187.561301 506.251014,187.561301 564.49055,187.681313 L564.49055,209.829906 L621.132384,209.829906 L621.132384,134.095359 L640.978161,134.095359 L640.978161,83.1277364 L710.18473,83.1277364 L710.18473,139.831991 L746.974298,139.831991 L746.974298,117.146622 L792.972716,117.146622 L792.972716,139.831991 L833.053478,139.831991 L833.053478,66.2866156 L857.644557,66.2866156 L857.644557,118.513573 L923.485547,118.513573 L923.485547,166.129463 L1000.21065,166.129463 L1000.21065,187.117982 L1061.13864,187.117982 L1060.96349,84.0968485 L1126.46124,84.0043786 C1126.46124,128.013168 1126.46124,150.015038 1126.46124,150.009988 C1126.46124,150.004938 1153.99248,150.004938 1209.05495,150.009988 L1209.05495,113.146332 L1243.46789,113.146332 L1243.46789,31 L1323.97944,31 L1323.97944,60.522876 L1360.44718,60.522876 L1360.44718,206.023997 L1401,206.023997"/>
+      <g id="eolic" fill="#FFF" stroke="#D9D9D9" transform="translate(69 63)">
+        <path id="Rectangle-5" d="M57.3082117,66 L54.025769,195 L66.974231,195 L63.6917883,66 L57.3082117,66 Z"/>
+        <path id="Rectangle-6" d="M48.8659862,195 L42.1459862,203 L79.8540138,203 L73.1340138,195 L48.8659862,195 Z"/>
+        <g id="Group-7">
+          <path id="Rectangle-7" d="M59.5553326,79.2511578 L59.5553326,89.1411471 L121.555333,85.8197185 L121.555333,82.5725863 L59.5553326,79.2511578 Z" transform="rotate(30 90.555 84.196)"/>
+          <path d="M-0.0735136494,78.9783939 L-0.0735136494,88.8683832 L61.9264864,85.5469546 L61.9264864,82.2998224 L-0.0735136494,78.9783939 Z" transform="rotate(150 30.926 83.923)"/>
+          <path d="M30,27.4835768 L30,37.3735661 L92,34.0521375 L92,30.8050053 L30,27.4835768 Z" transform="rotate(-90 61 32.429)"/>
+        </g>
+        <circle id="Oval-3-Copy-7" cx="60.5" cy="67.5" r="6.5"/>
+      </g>
+      <g id="high-building" fill="#FFF" stroke="#D9D9D9" transform="translate(340)">
+        <rect id="Rectangle-Copy-9" width="97" height="256" x="21" y="8"/>
+        <rect width="137" height="7" x="1" y="269"/>
+        <rect id="Rectangle-Copy-13" width="119" height="5" x="10" y="264"/>
+        <rect id="Rectangle-Copy-11" width="64" height="7" x="38" y="1"/>
+        <rect id="Rectangle-2-Copy-25" width="12" height="17" x="42" y="70"/>
+        <rect id="Rectangle-2-Copy-30" width="12" height="17" x="63" y="70"/>
+        <rect id="Rectangle-2-Copy-26" width="12" height="17" x="42" y="100"/>
+        <rect id="Rectangle-2-Copy-31" width="12" height="17" x="63" y="100"/>
+        <rect id="Rectangle-2-Copy-27" width="12" height="17" x="42" y="131"/>
+        <rect id="Rectangle-2-Copy-32" width="12" height="17" x="63" y="131"/>
+        <rect id="Rectangle-2-Copy-28" width="12" height="17" x="42" y="161"/>
+        <rect id="Rectangle-2-Copy-33" width="12" height="17" x="63" y="161"/>
+        <rect id="Rectangle-2-Copy-37" width="12" height="17" x="85" y="70"/>
+        <rect id="Rectangle-2-Copy-36" width="12" height="17" x="85" y="100"/>
+        <rect id="Rectangle-2-Copy-35" width="12" height="17" x="85" y="131"/>
+        <rect id="Rectangle-2-Copy-34" width="12" height="17" x="85" y="161"/>
+      </g>
+      <g id="building-4" fill="#FFF" stroke="#D9D9D9" transform="translate(568 170)">
+        <rect id="Rectangle-Copy-5" width="109" height="44" x="24" y="14" transform="matrix(1 0 0 -1 0 72)"/>
+        <rect id="Rectangle-Copy-6" width="26" height="44" x="84" y="14" transform="matrix(1 0 0 -1 0 72)"/>
+        <rect width="154" height="54" x="1" y="66"/>
+        <rect width="26" height="44" x="47" y="14" transform="matrix(1 0 0 -1 0 72)"/>
+        <rect width="26" height="7" x="47" y="33" transform="matrix(1 0 0 -1 0 73)"/>
+        <rect id="Rectangle-Copy-7" width="26" height="7" x="84" y="33" transform="matrix(1 0 0 -1 0 73)"/>
+        <rect width="154" height="8" x="1" y="58" transform="matrix(1 0 0 -1 0 124)"/>
+        <rect id="Rectangle-Copy-8" width="84" height="13" x="35" y="1" transform="matrix(1 0 0 -1 0 15)"/>
+        <rect id="Rectangle-2-Copy-21" width="18" height="27" x="22" y="93"/>
+        <rect id="Rectangle-2-Copy-22" width="18" height="27" x="69" y="93"/>
+        <rect id="Rectangle-2-Copy-23" width="18" height="27" x="116" y="93"/>
+      </g>
+      <g id="house3" fill="#FFF" stroke="#D9D9D9" transform="translate(415 155)">
+        <rect id="Rectangle-Copy-3" width="73" height="101" x="9" y="27"/>
+        <path id="Rectangle-Copy-4" d="M5.72075922,14 L1.38742589,27 L89.6125741,27 L85.2792408,14 L5.72075922,14 Z"/>
+        <rect width="12" height="13" x="63" y="1"/>
+        <rect id="Rectangle-2-Copy-16" width="17" height="29" x="35" y="99"/>
+        <rect id="Rectangle-2-Copy-17" width="12" height="13" x="22" y="67"/>
+        <rect id="Rectangle-2-Copy-19" width="29" height="13" x="44" y="67"/>
+        <rect id="Rectangle-2-Copy-18" width="12" height="13" x="22" y="42"/>
+        <rect id="Rectangle-2-Copy-20" width="29" height="13" x="44" y="42"/>
+      </g>
+      <g id="house4" fill="#FFF" stroke="#D9D9D9" transform="matrix(-1 0 0 1 1186 151)">
+        <rect width="73" height="101" x="7" y="21"/>
+        <path d="M12.3001096,8 L2.06060339,21 L85.0540211,21 L75.7453791,8 L12.3001096,8 Z"/>
+        <rect width="6" height="7" x="62" y="1"/>
+        <rect width="17" height="29" x="33" y="93"/>
+        <rect width="12" height="13" x="16" y="61"/>
+        <rect id="Rectangle-2-Copy-40" width="12" height="13" x="38" y="61"/>
+        <rect width="12" height="13" x="16" y="36"/>
+        <rect id="Rectangle-2-Copy-41" width="12" height="13" x="38" y="36"/>
+        <rect id="Rectangle-2-Copy-43" width="12" height="13" x="59" y="61"/>
+        <rect id="Rectangle-2-Copy-42" width="12" height="13" x="59" y="36"/>
+      </g>
+      <g id="house4-copy" fill="#FFF" stroke="#D9D9D9" transform="translate(1163 220)">
+        <rect width="137" height="67" x="1" y="1"/>
+        <rect width="14" height="24" x="104" y="44"/>
+        <g id="Group-4" transform="translate(12 9)">
+          <rect width="23" height="18" x="1" y="1"/>
+          <rect id="Rectangle-2-Copy-44" width="23" height="18" x="24" y="1"/>
+          <rect id="Rectangle-2-Copy-45" width="23" height="18" x="47" y="1"/>
+          <rect id="Rectangle-2-Copy-46" width="23" height="18" x="70" y="1"/>
+          <rect id="Rectangle-2-Copy-47" width="23" height="18" x="93" y="1"/>
+        </g>
+      </g>
+      <g id="building5" fill="#FFF" stroke="#D9D9D9" transform="translate(740 128)">
+        <rect width="70" height="148" x="1" y="8"/>
+        <rect width="70" height="44" x="1" y="112"/>
+        <rect id="Rectangle-Copy-10" width="12" height="59" x="71" y="97"/>
+        <rect width="18" height="7" x="10" y="1"/>
+        <rect id="Rectangle-Copy-12" width="18" height="7" x="38" y="1"/>
+        <rect id="Rectangle-2-Copy-39" width="16" height="27" x="18" y="129"/>
+        <rect id="Rectangle-2-Copy-24" width="8" height="8" x="16" y="24"/>
+        <rect id="Rectangle-2-Copy-29" width="8" height="8" x="32" y="24"/>
+        <rect width="8" height="8" x="16" y="40"/>
+        <rect width="8" height="8" x="32" y="40"/>
+        <rect width="8" height="8" x="16" y="56"/>
+        <rect width="8" height="8" x="32" y="56"/>
+        <rect width="8" height="8" x="16" y="72"/>
+        <rect width="8" height="8" x="32" y="72"/>
+        <rect width="8" height="8" x="16" y="88"/>
+        <rect width="8" height="8" x="32" y="88"/>
+        <rect id="Rectangle-2-Copy-38" width="8" height="8" x="48" y="24"/>
+        <rect width="8" height="8" x="48" y="40"/>
+        <rect width="8" height="8" x="48" y="56"/>
+        <rect width="8" height="8" x="48" y="72"/>
+        <rect width="8" height="8" x="48" y="88"/>
+      </g>
+      <g id="building2" fill="#FFF" stroke="#D9D9D9" transform="translate(294 95)">
+        <rect id="Rectangle-Copy-2" width="113" height="148" x="1" y="40"/>
+        <rect width="113" height="13" x="1" y="27" transform="matrix(1 0 0 -1 0 67)"/>
+        <rect width="84" height="13" x="16" y="14" transform="matrix(1 0 0 -1 0 41)"/>
+        <rect width="42" height="13" x="37" y="1" transform="matrix(1 0 0 -1 0 15)"/>
+        <rect id="Rectangle-2-Copy" width="18" height="27" x="16" y="161"/>
+        <rect id="Rectangle-2-Copy-4" width="18" height="13" x="16" y="131"/>
+        <rect id="Rectangle-2-Copy-8" width="18" height="13" x="45" y="131"/>
+        <rect id="Rectangle-2-Copy-5" width="18" height="13" x="16" y="108"/>
+        <rect id="Rectangle-2-Copy-9" width="18" height="13" x="45" y="108"/>
+        <rect id="Rectangle-2-Copy-6" width="18" height="13" x="16" y="85"/>
+        <rect id="Rectangle-2-Copy-10" width="18" height="13" x="45" y="85"/>
+        <rect id="Rectangle-2-Copy-7" width="18" height="13" x="16" y="62"/>
+        <rect id="Rectangle-2-Copy-11" width="18" height="13" x="45" y="62"/>
+        <rect id="Rectangle-2-Copy-15" width="18" height="13" x="74" y="131"/>
+        <rect id="Rectangle-2-Copy-14" width="18" height="13" x="74" y="108"/>
+        <rect id="Rectangle-2-Copy-13" width="18" height="13" x="74" y="85"/>
+        <rect id="Rectangle-2-Copy-12" width="18" height="13" x="74" y="62"/>
+      </g>
+      <g fill="#FFF" stroke="#D9D9D9" transform="translate(997 14)">
+        <rect width="97" height="256" x="21" y="8"/>
+        <rect width="137" height="7" x="1" y="269"/>
+        <rect width="119" height="5" x="10" y="264"/>
+        <rect width="16" height="27" x="62" y="237"/>
+        <rect width="64" height="7" x="38" y="1"/>
+        <rect width="12" height="17" x="42" y="39"/>
+        <rect width="12" height="17" x="63" y="39"/>
+        <rect width="12" height="17" x="42" y="70"/>
+        <rect width="12" height="17" x="63" y="70"/>
+        <rect width="12" height="17" x="42" y="100"/>
+        <rect width="12" height="17" x="63" y="100"/>
+        <rect width="12" height="17" x="42" y="131"/>
+        <rect width="12" height="17" x="63" y="131"/>
+        <rect width="12" height="17" x="42" y="161"/>
+        <rect width="12" height="17" x="63" y="161"/>
+        <rect width="12" height="17" x="85" y="39"/>
+        <rect width="12" height="17" x="85" y="70"/>
+        <rect width="12" height="17" x="85" y="100"/>
+        <rect width="12" height="17" x="85" y="131"/>
+        <rect width="12" height="17" x="85" y="161"/>
+      </g>
+      <g id="roda-gigante" stroke="#D9D9D9" transform="translate(805 94)">
+        <g id="Group-2">
+          <g id="Group" transform="translate(29 29)">
+            <path id="Path-4" d="M68,0 L68,135"/>
+            <path id="Path-5" d="M0,68 L135,68"/>
+          </g>
+          <g transform="rotate(-45 116.73 47.523)">
+            <path d="M68.5.968037432L68.5 135.968037M.292893219 69.1751442L135.292893 69.1751442"/>
+          </g>
+        </g>
+        <circle id="Oval-2" cx="97" cy="97" r="68"/>
+        <circle cx="97" cy="97" r="73"/>
+        <g fill="#FFF" transform="translate(37 17)">
+          <circle id="Oval-3-Copy-2" cx="111" cy="29" r="8"/>
+          <circle id="Oval-3-Copy-4" cx="9" cy="29" r="8"/>
+          <circle id="Oval-3-Copy-3" cx="60" cy="9" r="8"/>
+        </g>
+        <g id="Group-3" fill="#FFF" transform="rotate(-180 78.5 89)">
+          <circle cx="111" cy="29" r="8"/>
+          <circle cx="9" cy="29" r="8"/>
+          <circle cx="60" cy="9" r="8"/>
+        </g>
+        <circle id="Oval-3-Copy-5" cx="24" cy="96" r="8" fill="#FFF"/>
+        <circle id="Oval-3-Copy-6" cx="168" cy="96" r="8" fill="#FFF"/>
+        <g id="Group-5" fill="#FFF" transform="translate(58 97)">
+          <path id="Rectangle-4" d="M19.4357961,-1.20038436 L19.1961758,103.362857 L23.1928806,101.886196 L23.1928806,-1.20038436 L19.4357961,-1.20038436 Z" transform="rotate(20 21.193 51.3)"/>
+          <path id="Rectangle-4-Copy" d="M55.6003056,-1.20038436 L55.3606853,103.362857 L59.3573901,101.886196 L59.3573901,-1.20038436 L55.6003056,-1.20038436 Z" transform="scale(-1 1) rotate(20 0 -273.99)"/>
+        </g>
+        <circle cx="97" cy="96" r="5" fill="#FFF"/>
+      </g>
+      <g id="house1" fill="#FFF" stroke="#D9D9D9" transform="translate(145 187)">
+        <rect id="Rectangle" width="113" height="82" x="6" y="14"/>
+        <rect id="Rectangle-Copy" width="123" height="13" x="1" y="1"/>
+        <rect id="Rectangle-2" width="38" height="27" x="21" y="69"/>
+        <rect id="Rectangle-2-Copy-2" width="38" height="13" x="21" y="25"/>
+        <rect id="Rectangle-2-Copy-3" width="37" height="13" x="66" y="25"/>
+      </g>
+    </g>    
+    <g id="wave5">
+    <path d="M1192,273.52A11.52,11.52,0,1,0,1180.48,262,11.52,11.52,0,0,0,1192,273.52Zm-.64,4.48c-8.2,0-15.36-7.16-15.36-16.64A15.74,15.74,0,0,1,1191.36,246c9.48,0,16.64,7.16,16.64,15.36A16.28,16.28,0,0,1,1191.36,278Z" fill="#71d1a7" opacity="0.5" style="isolation: isolate"/>
+    <path d="M1193.15,285.48a23.72,23.72,0,0,0,23.33-23.33c0-13.89-10.74-24.63-23.33-24.63a24.27,24.27,0,0,0-24.63,24.63C1168.52,274.74,1179.26,285.48,1193.15,285.48Zm-.65,2.52a26.5,26.5,0,1,1,26.5-26.5A26.49,26.49,0,0,1,1192.5,288Z" fill="#71d1a7"/>
+    <path d="M1192.5,294.46a33,33,0,1,0-33-33A33,33,0,0,0,1192.5,294.46Zm0,2.54a35.5,35.5,0,1,1,35.5-35.5A35.5,35.5,0,0,1,1192.5,297Z" fill="#71d1a7" opacity="0.25" style="isolation: isolate"/>
+  </g>
+  <g id="wave4">
+    <path d="M733.5,268.5a9,9,0,1,0-9-9A9,9,0,0,0,733.5,268.5ZM733,272c-6.4,0-12-5.6-12-13a12.3,12.3,0,0,1,12-12c7.4,0,13,5.6,13,12A12.73,12.73,0,0,1,733,272Z" fill="#71d1a7" opacity="0.5" style="isolation: isolate"/>
+    <path d="M734.51,278A18.8,18.8,0,0,0,753,259.51c0-11-8.51-19.51-18.49-19.51A19.23,19.23,0,0,0,715,259.51C715,269.49,723.51,278,734.51,278Zm-.51,2a21,21,0,1,1,21-21A21,21,0,0,1,734,280Z" fill="#71d1a7"/>
+    <path d="M734,285a26,26,0,1,0-26-26A26,26,0,0,0,734,285Zm0,2a28,28,0,1,1,28-28A28,28,0,0,1,734,287Z" fill="#71d1a7" opacity="0.25" style="isolation: isolate"/>
+  </g>
+  <g id="wave3">
+    <path d="M974,268.5a9,9,0,1,0-9-9A9,9,0,0,0,974,268.5Zm-.5,3.5c-6.4,0-12-5.6-12-13a12.3,12.3,0,0,1,12-12c7.4,0,13,5.6,13,12A12.73,12.73,0,0,1,973.5,272Z" fill="#71d1a7" opacity="0.5" style="isolation: isolate"/>
+    <path d="M975,278a18.8,18.8,0,0,0,18.49-18.49c0-11-8.51-19.51-18.49-19.51a19.23,19.23,0,0,0-19.51,19.51C955.5,269.49,964,278,975,278Zm-.51,2a21,21,0,1,1,21-21A21,21,0,0,1,974.5,280Z" fill="#71d1a7"/>
+    <path d="M974.5,285a26,26,0,1,0-26-26A26,26,0,0,0,974.5,285Zm0,2a28,28,0,1,1,28-28A28,28,0,0,1,974.5,287Z" fill="#71d1a7" opacity="0.25" style="isolation: isolate"/>
+  </g>
+  <g id="wave2">
+    <path d="M536,265.52A11.52,11.52,0,1,0,524.48,254,11.52,11.52,0,0,0,536,265.52Zm-.64,4.48c-8.2,0-15.36-7.16-15.36-16.64A15.74,15.74,0,0,1,535.36,238c9.48,0,16.64,7.16,16.64,15.36A16.28,16.28,0,0,1,535.36,270Z" fill="#71d1a7" opacity="0.5" style="isolation: isolate"/>
+    <path d="M537.15,277.48a23.72,23.72,0,0,0,23.33-23.33c0-13.89-10.74-24.63-23.33-24.63a24.27,24.27,0,0,0-24.63,24.63C512.52,266.74,523.26,277.48,537.15,277.48ZM536.5,280A26.5,26.5,0,1,1,563,253.5,26.49,26.49,0,0,1,536.5,280Z" fill="#71d1a7"/>
+    <path d="M536.5,286.46a33,33,0,1,0-33-33A33,33,0,0,0,536.5,286.46Zm0,2.54A35.5,35.5,0,1,1,572,253.5,35.5,35.5,0,0,1,536.5,289Z" fill="#71d1a7" opacity="0.25" style="isolation: isolate"/>
+  </g>
+  <g id="wave1">
+    <path d="M282.5,266.5a9,9,0,1,0-9-9A9,9,0,0,0,282.5,266.5ZM282,270c-6.4,0-12-5.6-12-13a12.3,12.3,0,0,1,12-12c7.4,0,13,5.6,13,12A12.73,12.73,0,0,1,282,270Z" fill="#71d1a7" opacity="0.5" style="isolation: isolate"/>
+    <path d="M283.51,276A18.8,18.8,0,0,0,302,257.51c0-11-8.51-19.51-18.49-19.51A19.23,19.23,0,0,0,264,257.51C264,267.49,272.51,276,283.51,276Zm-.51,2a21,21,0,1,1,21-21A21,21,0,0,1,283,278Z" fill="#71d1a7"/>
+    <path d="M283,283a26,26,0,1,0-26-26A26,26,0,0,0,283,283Zm0,2a28,28,0,1,1,28-28A28,28,0,0,1,283,285Z" fill="#71d1a7" opacity="0.25" style="isolation: isolate"/>
+  </g>
+    
+    <g id="animated" transform="translate(0 243)">
+     
+     
+     
+  <!--         bin5             -->
+      <g id="bin5" transform="translate(507 10)">
+        <g id="waste5" transform="translate(0 6)">
+          <mask id="mask-2" fill="#fff">
+            <use xlink:href="#path-1"/>
+          </mask>
+          <use id="Mask" fill="#FFF" xlink:href="#path-1"/>
+          <rect id="wasteBin5" width="58" height="21" x="-1" y="8" fill="#C9D4D8" mask="url(#mask-2)"/>
+        </g>
+        <path id="Rectangle-8" stroke="#294269" stroke-width="2" d="M1,12.6701428 L4.17607591,34 L52.8239241,34 L56,12.6701428 L56,7 L1,7 L1,12.6701428 Z"/>
+        <rect id="Rectangle-9" width="55" height="4" x="1" y="3" fill="#FFF" stroke="#294269" stroke-width="2"/>
+        <rect width="55" height="2" x="1" y="1" fill="#FFF" stroke="#294269" stroke-width="2"/>
+      </g>
+  <!--         bin5             -->     
+      
+      
+      
+      <g id="bin4" transform="translate(962 15)">
+        <rect id="bin" width="21" height="34" x="1" y="1" fill="#FFF" stroke="#294269" stroke-width="2"/>
+        <rect id="waste" width="19" height="4" x="2" y="30" fill="#C9D4D8"/>
+        <rect id="open" width="23" height="2" y="11" fill="#30415F"/>
+        <rect id="lid" width="23" height="4" fill="#294269"/>
+      </g>
+      
+      
+      
+      
+  <!--         bin3             -->          
+      <g id="bin3" transform="translate(721 15)">
+        <rect width="21" height="34" x="1" y="1" fill="#FFF" stroke="#294269" stroke-width="2"/>
+        <g id="waste3" transform="translate(2 13)">
+          <mask id="mask-4" fill="#fff">
+            <use xlink:href="#path-3"/>
+          </mask>
+          <use fill="#FFF" xlink:href="#path-3"/>
+          <rect id="wasteBin3" width="19" height="21" fill="#C9D4D8" mask="url(#mask-4)"/>
+        </g>
+        <rect width="23" height="2" y="11" fill="#294269"/>
+        <rect width="23" height="4" fill="#294269"/>
+      </g>
+  <!--         bin3             -->
+      
+      
+  <!--         bin2             -->          
+      <g id="bin2" transform="translate(1163 19)">
+        <g id="waste2" transform="translate(0 6)">
+          <mask id="mask-6" fill="#fff">
+            <use xlink:href="#path-5"/>
+          </mask>
+          <use fill="#FFF" xlink:href="#path-5"/>
+          <rect id="wasteBin2" width="58" height="25" x="-1" y="4" fill="#C9D4D8" mask="url(#mask-6)"/>
+        </g>
+        <path stroke="#294269" stroke-width="2" d="M1,12.6701428 L4.17607591,34 L52.8239241,34 L56,12.6701428 L56,7 L1,7 L1,12.6701428 Z"/>
+        <rect width="55" height="4" x="1" y="3" fill="#FFF" stroke="#294269" stroke-width="2"/>
+        <rect width="55" height="2" x="1" y="1" fill="#FFF" stroke="#294269" stroke-width="2"/>
+      </g>
+  <!--         bin2             -->    
+      
+      
+      
+      
+      <g id="bin1" transform="translate(270 12)">
+        <rect width="21" height="34" x="1" y="1" fill="#FFF" stroke="#294269" stroke-width="2"/>
+        <rect width="19" height="4" x="2" y="30" fill="#C9D4D8"/>
+        <rect width="23" height="2" y="11" fill="#294269"/>
+        <rect width="23" height="4" fill="#294269"/>
+      </g>
+      
+  <!--          truck           -->
+      <g id="truck">
+        <g id="compartiment" transform="translate(22)">
+          <mask id="mask-8" fill="#fff">
+            <use xlink:href="#path-7"/>
+          </mask>
+          <use id="wasteBG" fill="#FFF" xlink:href="#path-7"/>
+          <rect id="wasteMaskTruck" width="91" height="70" y="50" fill="#C9D4D8" mask="url(#mask-8)"/>
+          <path stroke="#294269" stroke-width="2" d="M24.8157808,16.049061 L1.65724631,60 L90,60 L90,1 L41.118936,1 L33.618936,16.049061 L24.8157808,16.049061 Z"/>
+        </g>
+  <!--          truck           -->
+        <path id="Rectangle-3" fill="#FFF" stroke="#294269" stroke-width="2" d="M59.3759797,1 L30.7935565,1 L1.15033159,47.0603879 L6.22054271,57.117692 L19.6268958,59.8686847 L44.4709538,12.1523194 L53.825804,12.009365 L59.3759797,1 Z"/>
+        <path id="Rectangle-3-Copy" fill="#FFF" stroke="#294269" stroke-width="2" d="M116,16 L116,60 L161.165424,60 L162.801787,51 L158,51 L158,32.3280758 L145.994062,16 L116,16 Z"/>
+        <path fill="#FFF" stroke="#294269" stroke-width="2" d="M140.415876,22 L134,22 L134,34.8572517 L150.00645,34.9841623 L140.415876,22 Z"/>
+        <g id="tire-back" fill="#FFF" stroke="#294269" stroke-width="2" transform="rotate(45 -33.37 79.491)">
+          <circle id="Oval" cx="10" cy="10" r="9"/>
+          <circle cx="10" cy="10" r="2"/>
+        </g>
+        <g id="tire-front" fill="#FFF" stroke="#294269" stroke-width="2" transform="rotate(45 9.044 179.474)">
+          <circle id="Oval-Copy" cx="10.414" cy="10.586" r="9"/>
+          <circle cx="10.414" cy="10.586" r="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

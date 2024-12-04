@@ -1,15 +1,13 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
+//import Features2 from '~/components/widgets/Features2.astro';//
+//import Steps from '~/components/widgets/Steps.astro';//
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
+//import FAQs from '~/components/widgets/FAQs.astro';//
+//import Stats from '~/components/widgets/Stats.astro';//
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
@@ -32,81 +30,59 @@ const metadata = {
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'Astro Hero Image' }}
+    image={{ src: '~/assets/images/cityanimation.svg', alt: 'Astro Hero Image' }}
   >
     <Fragment slot="title">
-      Soluciones web personalizadas con <span class="hidden xl:inline">la potencia de</span>
-      <span class="text-accent dark:text-white highlight">Astro 5.0</span> + Carecteristicas
+      Basura Inteligente, Ciudad Limpia: Recolección Eficiente con Sensores IoT <span class="hidden xl:inline">la potencia de</span>
+      <span class="text-accent dark:text-white highlight"></span> 
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">[Nombre de tu empresa]</span> ofrece soluciones web personalizadas, adaptadas a las necesidades
-        de tu negocio. Aprovechamos las últimas tecnologías, como <span class="font-semibold">Astro 4.0</span> y Tailwind
-        CSS, para crear sitios web rápidos, eficientes y escalables.</span
+        <span class="font-semibold">ECO-LIFE</span>Nuestros contenedores monitorean en tiempo real el nivel de llenado, permitiendo una recolección de basura optimizada y reduciendo el impacto ambiental.<span class="font-semibold">Con ECO-LIFE</span>Con ECO-LIFE, no solo mantenemos la ciudad limpia, sino que también contribuimos a un futuro más verde y sostenible.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600"
-        >[Nombre de tu empresa]: Innovación web a tu alcance.</span
-      >
-      Trabajamos con Startups, Empresas de todos los tamaños, Proyectos SaaS, Portafolios Profesionales, Páginas de Marketing
-      y más.
+     
+      
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
-  <Note />
+  
 
   <!-- Features Widget *************** -->
 
   <Features
     id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    title="El 80% de los residuos del mundo se recogen en el momento inadecuado"
+    subtitle="Demasiado tarde:  Los contenedores desbordados dan lugar a vertidos ilegales y denuncias, lo que significa gastos adicionales de limpieza y recogida. Demasiado temprano:  Los contenedores están vacíos en el momento de la recogida, lo que significa una pérdida de tiempo, recursos y dinero"
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Sensores de contenedores inteligentes',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+          'Obtenga datos en tiempo real sobre sus contenedores y el comportamiento de generación de residuos con sensores inteligentes.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Seguimiento de activos',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'Realice un seguimiento de las ubicaciones y los movimientos de sus contenedores de residuos, asegure sus contenedores contra robos y aumente la transparencia de sus operaciones diarias de gestión de residuos con el seguimiento de activos.',
         icon: 'tabler:components',
       },
       {
-        title: 'Best Practices',
+        title: 'Recorrido inteligente',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+          'Dé servicio a sus contenedores en el momento exacto con los recorridos inteligentes.',
         icon: 'tabler:list-check',
       },
-      {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
+
+  
     ]}
   />
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     tagline="Inside template"
     title="AstroWind's Blueprint: Fun Meets Functionality!"
@@ -140,7 +116,7 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content>-->
 
   <!-- Content Widget **************** -->
 
@@ -181,7 +157,7 @@ const metadata = {
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     isAfterContent
     items={[
@@ -215,11 +191,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content>-->
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
+  <!-- <Steps
     title="Haz realidad el sitio web de tus sueños de forma rápida y eficiente con [Nombre de tu empresa]."
     items={[
       {
@@ -249,11 +225,11 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />
+  />-->
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
+  <!--<Features2
     title="Most used widgets"
     subtitle="todo esto tiene no el 100% pero si es personalidable atte:Copilot"
     tagline="Components"
@@ -314,7 +290,7 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
-
+-->
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
@@ -327,7 +303,7 @@ const metadata = {
 
   <!-- FAQs Widget ******************* -->
 
-  <FAQs
+  <!-- <FAQs
     title="Preguntas Frecuentes"
     subtitle="Resuelve tus dudas sobre cómo nuestros servicios pueden ayudarte a llevar tu negocio al siguiente nivel."
     tagline="FAQs"
@@ -364,18 +340,18 @@ const metadata = {
           'Trabajamos con tecnologías modernas como Astro, Tailwind CSS y otras herramientas líderes para garantizar un sitio web rápido, seguro y escalable.',
       },
     ]}
-  />
+  />-->
 
   <!-- Stats Widget ****************** -->
 
-  <Stats
+  <!-- <Stats
     stats={[
       { title: 'Downloads', amount: '132K' },
       { title: 'Stars', amount: '24.8K' },
       { title: 'Forks', amount: '10.3K' },
       { title: 'Users', amount: '48.4K' },
     ]}
-  />
+  />-->
 
   <!-- CallToAction Widget *********** -->
 
@@ -383,7 +359,7 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Click Here',
+        text: 'Toca para ver más',
         href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         target: '_blank',
         icon: 'tabler:download',
@@ -391,7 +367,7 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS yo que se</span>
+      Ve nuestro video promocional &nbsp; &nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap"></span>
     </Fragment>
 
     <Fragment slot="subtitle">
