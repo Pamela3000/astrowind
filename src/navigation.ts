@@ -60,8 +60,8 @@ export const headerData = {
         },
       ],
     },
-    {
-      text: 'Landing',
+    /*{
+      xtext: 'Landing',
       links: [
         {
           text: 'Lead Generation',
@@ -88,7 +88,7 @@ export const headerData = {
           href: getPermalink('/landing/subscription'),
         },
       ],
-    },
+    },*/
     {
       text: 'Blog',
       links: [
